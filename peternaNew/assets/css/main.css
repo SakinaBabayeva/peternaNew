@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: black;
+}
+header nav {
+  width: 80%;
+  margin: auto;
+}
+header nav .collapseDiv {
+  width: 85%;
+  justify-content: end;
+}
+
+#ourBestsection {
+  width: 100%;
+  min-height: 80vh;
+  background-color: #00798A;
+  display: flex;
+  align-items: center;
+}
+#ourBestsection .effort {
+  margin: auto;
+  text-align: center;
+}
+#ourBestsection .effort h1 {
+  font-size: 90px;
+  font-weight: 600;
+  color: white;
+}
+#ourBestsection .effort h2 {
+  font-size: 50px;
+  color: white;
+}
+#ourBestsection .effort p {
+  color: white;
+  font-size: 20px;
+}
+#ourBestsection .effort #btn {
+  color: white;
+  background-color: red;
+  padding: 10px 20px;
+  border: none;
+}
+
+#ourServices {
+  width: 100%;
+  min-height: 600px;
+  background-image: url(/assets/images/sativa.png);
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#ourServices .services h1 {
+  color: #00798A;
+}
+#ourServices .services h2 {
+  color: black;
+}
+#ourServices .text h1 {
+  color: black;
+  font-size: 30px;
+}
+#ourServices .servicesCard {
+  text-align: center;
+  background-color: #00798A;
+  padding: 20px 10px;
+  color: white;
+}
+#ourServices .servicesCard i {
+  font-size: 80px;
+  margin: 20px;
+  color: white;
+}
+
+#Reportsbox {
+  background-color: #00798A;
+}
+#Reportsbox .Reportsbest {
+  display: flex;
+}
+#Reportsbox .Reportstext {
+  color: white;
+}
+#Reportsbox .Reportstext h1 {
+  font-size: 60px;
+}
+#Reportsbox .Reportstext p {
+  font-size: 30px;
+}
+#Reportsbox .Reportscontent {
+  color: white;
+}
+#Reportsbox .Reportscontent h1 {
+  font-size: 50px;
+}
+#Reportsbox .Reportscontent p {
+  font-size: 30px;
+}
+
+#plansSection {
+  width: 100%;
+  min-height: 600px;
+  background-image: url(/assets/images/sativa.png);
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#plansSection .plansDiv h1 {
+  color: #00798A;
+  font-size: 30px;
+}
+#planBestsection {
+  width: 100%;
+  min-height: 600px;
+  background-image: url(/assets/images/sativa.png);
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#planBestsection .basicDiv {
+  background-color: #D8D8D8;
+}
+#planBestsection .basicDiv .position {
+  background-color: black;
+  width: 100%;
+}
+#planBestsection .basicDiv p {
+  font-size: 30px;
+}
+#planBestsection .basicDiv .only {
+  background-color: #1F8A63;
+  font-size: 50px;
+}
+#planBestsection .basicDiv #btn {
+  background-color: red;
+  width: 350px;
+  height: 40px;
+}
+
+#projectsSection {
+  background-color: #00798A;
+  width: 100%;
+  height: 200px;
+}
+#projectsSection .text h1 {
+  color: white;
+  font-size: 50px;
+}
+#projectsSection .text p {
+  color: white;
+  font-size: 30px;
+}
